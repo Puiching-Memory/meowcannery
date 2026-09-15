@@ -1,0 +1,12 @@
+{
+  "id": "yaoli",
+  "title": "药理学复习指南",
+  "subject": "药理学",
+  "pdf_glob": "data/books/yaoli.pdf",
+  "ocr_dir": "data/ocr/yaoli",
+  "plugin": "pharmacology",
+  "preset": "medical_abx",
+  "page_count": 313,
+  "first_page": 1,
+  "last_page": 313
+}

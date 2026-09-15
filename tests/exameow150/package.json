@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "typescript": "^6.0.2",
+    "xlsx": "^0.18.5"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "extends": "chapter_answers",
+  "name": "逐题附答案",
+  "description": "题目后紧跟 答案：/参考答案：/解析：，适合单栏讲义和练习清单。",
+  "inline_answers": true,
+  "inline_answer_pattern": "^(?:【|\\[)?(?:参考答案|答案)(?:】|\\])?\\s*[：:]?\\s*(.+)$"
+}

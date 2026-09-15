@@ -1,0 +1,7 @@
+{
+  "extends": "chapter_answers",
+  "name": "医学 A/B/X 型习题",
+  "description": "A 型为单选、B 型共用选项、X 型多选；题号在选择题小节内连续。药理学插件保留已验证的专门修复。",
+  "sections": {"A型题": "single", "B型题": "shared", "X型题": "multi", "中英文药名对译": "translate", "对译": "translate"},
+  "choice_numbering": "continuous"
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "before": {
+      "options": [
+        "波生坦",
+        "丁螺环酮",
+        "银杏苦内酯 B",
+        "波生坦",
+        "奈西立肽"
+      ],
+      "answer": "C"
+    },
+    "after": {
+      "options": [
+        "波生坦",
+        "丁螺环酮",
+        "银杏苦内酯 B",
+        "奈西立肽"
+      ]
+    },
+    "reason": "原书A、D选项均为波生坦。删除重复的D项，原E项顺移为D；正确答案仍为C，未补写新选项。",
+    "sources": [
+      "原书PDF第147页（书页137）"
+    ],
+    "match": {
+      "chapter": "第二十四章影响其他自体活性物质的药物",
+      "stem": "5. 对血小板活化因子有选择性抑制作用的药物是（）"
+    }
+  },
+  {
+    "before": {
+      "options": [
+        "眩晕",
+        "高钙血症",
+        "过敏反应",
+        "高钙血症",
+        "变性型骨炎"
+      ],
+      "answer": "A"
+    },
+    "after": {
+      "options": [
+        "眩晕",
+        "高钙血症",
+        "过敏反应",
+        "变性型骨炎"
+      ]
+    },
+    "reason": "原书B、D选项均为高钙血症。删除重复的D项，原E项顺移为D；保留原书参考答案A，未推测重复项本应为何内容。",
+    "sources": [
+      "原书PDF第190页（书页180）及第191页参考答案"
+    ],
+    "match": {
+      "chapter": "第三十三章影响其他代谢的药物",
+      "stem": "5. 鲑鱼降钙素的最主要不良反应是( )"
+    }
+  },
+  {
+    "before": {
+      "answer": "B",
+      "options": [
+        "是新一代的喹诺酮类",
+        "抑制菌体转肽酶，阻止 DNA 复制",
+        "口服方便",
+        "抗菌谱广",
+        "属杀菌药"
+      ]
+    },
+    "after": {
+      "stem": "7. 下述关于氟喹诺酮类的叙述，不正确的是（）"
+    },
+    "reason": "原书题干询问药物类别，但五个选项均为性质或作用描述。根据选项形式将题干校订为判断叙述正误，保留原选项和原书答案B。这是题干编辑修订，不是OCR原文还原。",
+    "sources": [
+      "原书PDF第212页（书页202）及第216页参考答案"
+    ],
+    "match": {
+      "chapter": "第三十七章人工合成抗菌药物",
+      "stem": "7. 下述不属于氟喹诺酮类的是( )"
+    }
+  },
+  {
+    "before": {
+      "answer": "AECE",
+      "options": [
+        "齐多夫定",
+        "沙奎那韦",
+        "阿昔洛韦",
+        "碘苷",
+        "拉米夫定"
+      ]
+    },
+    "after": {
+      "answer": "ABE"
+    },
+    "reason": "原书参考答案印为AECE，含重复字母且与选项不符。根据NIH公布的HIV药物批准记录，齐多夫定、沙奎那韦、拉米夫定对应本题A、B、E，校订为ABE。本题沿用原书药理知识背景。",
+    "sources": [
+      "原书PDF第261—262页",
+      "https://hivinfo.nih.gov/sites/default/files/2024-05/FDATimeline-2024-Eng.pdf"
+    ],
+    "match": {
+      "chapter": "第四十三章抗病毒药",
+      "stem": "19. 下列药可以治疗 HIV 感染的是()"
+    }
+  },
+  {
+    "before": {
+      "answer": "ACD",
+      "options": [
+        "血吸虫",
+        "绦虫",
+        "蛔虫",
+        "肺吸虫",
+        "蛲虫"
+      ]
+    },
+    "after": {
+      "answer": "ABD"
+    },
+    "reason": "原书参考答案为ACD。结合CDC的血吸虫病、绦虫病及肺吸虫病资料，本题所列适应寄生虫对应A、B、D；C为蛔虫，校订为ABD。此处是有外部依据的原书答案勘误。",
+    "sources": [
+      "原书PDF第269—270页",
+      "https://www.cdc.gov/schistosomiasis/hcp/treatment/index.html",
+      "https://www.cdc.gov/taeniasis/hcp/clinical-care/index.html",
+      "https://www.cdc.gov/paragonimus/hcp/clinical-overview/index.html",
+      "https://www.cdc.gov/sth/hcp/clinical-care/index.html"
+    ],
+    "match": {
+      "chapter": "第四十四章抗寄生虫药",
+      "stem": "60. 吡喹酮对下列寄生虫有作用的是()"
+    }
+  }
+]

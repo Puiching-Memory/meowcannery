@@ -1,0 +1,7 @@
+{
+  "extends": "chapter_answers",
+  "name": "分析化学复习指南",
+  "answer_start": "^(?:参考答案|习题答案|答案与解析|参考答案与解析|模拟试题[（(][一二][）)]答案)$",
+  "description": "温金莲主编版：最佳选择、配伍选择、多项选择、计算题；配伍答案支持 [1~5] ABCDE。",
+  "sections": {"最佳选择题": "single", "最佳选择": "single", "配伍选择": "shared", "配置选择题": "shared", "配五选择题": "shared", "多项选择": "multi", "问答题和计算题": "essay_calculate", "波谱解析题": "spectrum", "光谱解析": "spectrum", "A型题": "single"}
+}

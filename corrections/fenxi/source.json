@@ -1,0 +1,188 @@
+[
+  {
+    "page": "p0021.md",
+    "old": "F. 可消除性",
+    "new": "E. 可消除性",
+    "reason": "原书 PDF 第 21 页（书页 13）第五个选项误印为 F。按位置规范为 E；保留所有选项文本及原答案 C。这是原书标号勘误。"
+  },
+  {
+    "page": "p0024.md",
+    "old": "E. 重复性是在不同实验室之间，由于不同分析人员对同",
+    "new": "E. 重复性是在不同实验室之间，由于不同分析人员对同一试样测定结果的接近程度",
+    "reason": "核对 PDF 第 24 页（书页 16）多项选择第 3 题，OCR 漏掉 E 选项后半句；按扫描页补齐。"
+  },
+  {
+    "page": "p0024.md",
+    "old": "V_{NaON}=25.70mL",
+    "new": "V_{NaOH}=25.70mL",
+    "reason": "核对 PDF 第 24 页（书页 16）配伍第 16 题，下标为 NaOH，OCR 将 H 错识为 N。"
+  },
+  {
+    "page": "p0027.md",
+    "old": "4. 解: (1) 采用 Q 检验, 检查两组数据中有无逸出值\n\n4. 解：(1) 采用 Q 检验，检查两组数据中有无逸出值",
+    "new": "4. 解：(1) 采用 Q 检验，检查两组数据中有无逸出值",
+    "reason": "PDF 第 27 页（书页 19）计算第 4 题起始行只有一次，OCR 重复输出同一行，移除重复识别。"
+  },
+  {
+    "page": "p0054.md",
+    "old": "4. 在酸碱滴定法中，\n\nA. 指示剂\n\nB. 颜色变化",
+    "new": "4. 在酸碱滴定法中，选择指示剂时须考虑的因素有（）。\n\nA. 指示剂的变色范围 B. 滴定突跃的范围 C. 指示剂的颜色变化 D. 指示剂的用量大小 E. 被滴定液的温度变化",
+    "reason": "核对 PDF 第 54 页（书页 46）多项选择第 4 题，OCR 丢失大部分题干和选项，按扫描原文补齐。"
+  },
+  {
+    "page": "p0053.md",
+    "old": ".  $ H_{2}PO_{4}^{-} $的是\n\n $$ \\mathrm{H}_{2}\\mathrm{PO}_{4} $$ ",
+    "new": "2. H₂PO₄⁻ 是 H₃PO₄ 的（）。\n\n3. H₂PO₄⁻ 是（）。",
+    "reason": "对照 PDF 第 53 页（书页 45）扫描原文：恢复配伍第 2、3 题题号和漏识的离子、题干。"
+  },
+  {
+    "page": "p0041.md",
+    "old": " $$ m_{\\mathrm{Na_{2}CO_{3}}}=",
+    "new": "3. 解：\n\n $$ m_{\\mathrm{Na_{2}CO_{3}}}=",
+    "reason": "对照 PDF 第 41 页（书页 33）扫描原文：恢复计算第 3 题答案题号。"
+  },
+  {
+    "page": "p0089.md",
+    "old": "E 防止 I 的挥发\n\n $$ \\mathrm{I}_{2} $$ ",
+    "new": "E. 防止 I₂ 的挥发",
+    "reason": "对照 PDF 第 89 页（书页 81）扫描原文：恢复配伍选项 E 的标号和碘分子下标。"
+  },
+  {
+    "page": "p0089.md",
+    "old": "分解，同时减弱 I⁻ 被空气中的  $ O_{2} $",
+    "new": "分解，同时减弱 I⁻ 被空气中的  $ O_{2} $ 氧化程度",
+    "reason": "对照 PDF 第 89 页（书页 81）扫描原文：补齐配伍选项 D 的换行尾句。"
+  },
+  {
+    "page": "p0139.md",
+    "old": "6. 如何选择紫外-",
+    "new": "5. 简述紫外-可见分光光度计的主要部件及用途。\n\n6. 如何选择紫外-",
+    "reason": "对照 PDF 第 139 页（书页 131）扫描原文：补齐问答第 5 题整行漏识。"
+  },
+  {
+    "page": "p0139.md",
+    "old": "3. 已知双嘧达吴注射液中的土安成分双嘧达吴仕  $ 283\\,nm $ 处的  $ L_{10m} $ 为 625。现欲移取一定体积的注射液用  $ 0.01\\,mol/L $ 稀盐酸稀释 500 倍进行测定。若要使吸光度落在  $ 0.4\\sim0.7 $ 之内，应该移取注射液的体积为多少？（已知标示量为  $ 2\\,mL:10\\,mg $）",
+    "new": "5. 已知双嘧达莫注射液中的主要成分双嘧达莫在 283nm 处的 E₁％¹ᶜᵐ 为 625。现欲移取一定体积的注射液用 0.01mol/L 稀盐酸稀释 500 倍进行测定。若要使吸光度落在 0.4～0.7 之内，应该移取注射液的体积为多少？（已知标示量为 2mL：10mg）",
+    "reason": "对照 PDF 第 139 页（书页 131）扫描原文：计算第 5 题错识为第 3 题，并错识药名、主要成分及吸光系数符号，按原文恢复。"
+  },
+  {
+    "page": "p0141.md",
+    "old": "4.443.7",
+    "new": "4. 443.7",
+    "reason": "对照 PDF 第 141 页（书页 133）扫描原文：分开填空第 4 题的题号与数值答案。"
+  },
+  {
+    "page": "p0154.md",
+    "old": "\\quad12. $$",
+    "new": "\\quad12.\\times $$",
+    "reason": "对照 PDF 第 154 页（书页 146）扫描原文：补齐判断第 12 题答案 ×。"
+  },
+  {
+    "page": "p0105.md",
+    "old": "1. 莫尔法()\n\n1. 莫尔法（）。",
+    "new": "1. 莫尔法（）。",
+    "reason": "对照 PDF 第 105 页（书页 97）扫描原文：同一题干被 OCR 输出两次，移除重复。"
+  },
+  {
+    "page": "p0234.md",
+    "old": " $$ \\begin{aligned}!:w_{i}",
+    "new": "3. 解：\n\n $$ \\begin{aligned}w_{i}",
+    "reason": "对照 PDF 第 234 页（书页 226）扫描原文：恢复计算第 3 题答案题号并去除误识前缀。"
+  },
+  {
+    "page": "p0234.md",
+    "old": "\\frac{A_{i}}{A_{i}}\\times\\frac{m_{i}}{m_{j}}",
+    "new": "\\frac{A_{j}}{A_{i}}\\times\\frac{m_{i}}{m_{j}}",
+    "reason": "对照 PDF 第 234 页（书页 226）扫描原文：第 3 题相对校正因子分子下标为 j。"
+  },
+  {
+    "page": "p0190.md",
+    "old": " $$ _{6}^{13}\\mathrm{C} $$ \n\n $$ _{6}^{13}\\mathrm{C} $$ ",
+    "new": "1. ¹₁H（）。\n\n2. ¹³₆C（）。\n\n3. ¹²₆C（）。\n\n4. ³⁵₁₇Cl（）。",
+    "reason": "对照 PDF 第 190 页（书页 182）原子核自旋量子数配伍题，补回 OCR 漏掉的第 1～4 题及核素标记。"
+  },
+  {
+    "page": "p0273.md",
+    "old": "\\overrightarrow{x}",
+    "new": "\\overline{x}",
+    "reason": "对照 PDF 第 273 页（书页 265）扫描原文：计算第 1 题 t 检验公式是均值横线，OCR 错识为向量箭头。"
+  },
+  {
+    "page": "p0277.md",
+    "old": "8. 9. 1. 87",
+    "new": "8. 91.87",
+    "reason": "对照 PDF 第 277 页（书页 269）扫描原文：填空第 8 题答案为 91.87，OCR 在数字中插入多余句点。"
+  },
+  {
+    "page": "p0115.md",
+    "old": "[9～11]\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_167_780_315_914.jpg\" alt=\"Image\" width=\"11%\" /></div>\n\n\n<div style=\"text-align: center;\">A</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_342_775_535_914.jpg\" alt=\"Image\" width=\"15%\" /></div>\n\n\n<div style=\"text-align: center;\">B</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_529_764_704_914.jpg\" alt=\"Image\" width=\"14%\" /></div>\n\n\n<div style=\"text-align: center;\">C</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_723_751_902_914.jpg\" alt=\"Image\" width=\"14%\" /></div>\n\n\n<div style=\"text-align: center;\">D</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_962_781_1119_915.jpg\" alt=\"Image\" width=\"12%\" /></div>\n\n\n<div style=\"text-align: center;\">E</div>\n\n\n下列确定滴定终点方法的滴定曲线示意图是\n\n",
+    "new": "\n\n[9～11]\n\nA. E-V 曲线：电位 E 随滴定体积 V 呈上升 S 形，V₀ 附近突跃。\nB. pH-V 曲线：pH 随滴定体积 V 呈上升 S 形，V₀ 附近突跃。\nC. ΔE/ΔV-V 曲线：V₀ 处有向上的尖峰，两侧趋近基线。\nD. Δ²E/ΔV²-V 曲线：V₀ 前为正峰，V₀ 后为负峰，在 V₀ 附近由正转负。\nE. I-V 曲线：电流 I 先升高后下降，在 V₀ 降至零，随后再次升高。\n\n下列确定滴定终点方法对应哪条曲线？（原图按坐标轴和曲线走势转写为文字）\n\n",
+    "reason": "核对 PDF 第 115 页（书页 107）：第 9～11 题图形选项错位到第 8 题；根据原图逐项转写坐标及走势，重新建立独立选项组，保留原答案。"
+  },
+  {
+    "page": "p0115.md",
+    "old": "[12~15]\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_168_1134_321_1268.jpg\" alt=\"Image\" width=\"12%\" /></div>\n\n\n<div style=\"text-align: center;\">A</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_372_1133_529_1270.jpg\" alt=\"Image\" width=\"12%\" /></div>\n\n\n<div style=\"text-align: center;\">B</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_569_1133_731_1272.jpg\" alt=\"Image\" width=\"13%\" /></div>\n\n\n<div style=\"text-align: center;\">C</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_754_1130_930_1271.jpg\" alt=\"Image\" width=\"14%\" /></div>\n\n\n<div style=\"text-align: center;\">D</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_968_1131_1126_1271.jpg\" alt=\"Image\" width=\"12%\" /></div>\n\n\n<div style=\"text-align: center;\">E</div>\n\n\n下列滴定的滴定曲线示意图是\n\n",
+    "new": "[12~15]\n\nA. I-V 曲线：电流 I 随滴定体积 V 下降，在 V₀ 降至零，之后保持近零。\nB. I-V 曲线：V₀ 前电流 I 保持近零，V₀ 后随滴定体积 V 增大而上升。\nC. E-V 曲线：电位 E 随滴定体积 V 呈上升 S 形，V₀ 附近突跃。\nD. pH-V 曲线：pH 随滴定体积 V 呈上升 S 形，V₀ 附近突跃。\nE. I-V 曲线：电流 I 先升高后下降，在 V₀ 降至零，随后再次升高。\n\n下列滴定对应哪条曲线？（原图按坐标轴和曲线走势转写为文字）\n\n",
+    "reason": "核对 PDF 第 115 页（书页 107）：第 12～15 题的五幅图形选项未形成选项池，按原图逐项文字转写，保留原答案。"
+  },
+  {
+    "page": "p0136.md",
+    "old": "C.  $ H_{2}C=CH-C-CH_{3} $",
+    "new": "C. CH₂=CH-C(=O)-CH₃",
+    "reason": "核对 PDF 第 136 页（书页 128）：单选第 8 题 C 选项的羰基 O 被遗漏，按结构式补齐。"
+  },
+  {
+    "page": "p0136.md",
+    "old": "<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_241_784_443_851.jpg\" alt=\"Image\" width=\"16%\" /></div>",
+    "new": "",
+    "reason": "核对 PDF 第 136 页（书页 128）：图像实际为第 8 题 C 选项的羰基结构式，已文字转写；移除 OCR 错放到第 9 题之后的同一图像。"
+  },
+  {
+    "page": "p0136.md",
+    "old": "\n\nA.\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_248_1273_461_1450.jpg\" alt=\"Image\" width=\"17%\" /></div>\n\n\nC.\n\nB.\n\nD.\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_537_1277_751_1452.jpg\" alt=\"Image\" width=\"17%\" /></div>\n\n\nE.  $ H_{2}C=CH-CH=CH_{2} $\n\n",
+    "new": "\n\nA. C₆H₅-CH=CH-CH₂-CH₃\nB. C₆H₅-CH=CH-CH=CH₂\nC. C₆H₅-CH₂-CH₂-CH=CH₂\nD. C₆H₅-CH₂-CH₂-CH₂-CH₃\nE. CH₂=CH-CH=CH₂\n\n",
+    "reason": "核对 PDF 第 136 页（书页 128）扫描图：第 12 题结构式按原图转写为缩写结构式，C₆H₅ 表示苯基；恢复 A～E 原始顺序。"
+  },
+  {
+    "page": "p0189.md",
+    "old": "4. 在乙酸乙酯  $ \\begin{array}{c}O \\\\ H_{3} C-C-O-CH_{2}-CH_{3} \\\\ 1\\end{array} $ 中，三种质子的化学位移值从大到小排列顺序是（）。",
+    "new": "4. 在乙酸乙酯 CH₃-C(=O)-O-CH₂-CH₃ 中，将左侧乙酰基 CH₃ 的氢记为 1，O-CH₂ 的氢记为 2，右侧末端 CH₃ 的氢记为 3。三种质子的化学位移值从大到小排列顺序是（）。",
+    "reason": "核对 PDF 第 189 页（书页 181）扫描图：第 4 题的结构式及氢编号被错误转成数组，按原图恢复羰基和三个编号位置。"
+  },
+  {
+    "page": "p0189.md",
+    "old": "<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_332_691_583_780.jpg\" alt=\"Image\" width=\"20%\" /></div>",
+    "new": "",
+    "reason": "核对 PDF 第 189 页（书页 181）扫描图：此图属于第 4 题乙酸乙酯，已经在该题文字转写；移除 OCR 错挂到第 5 题的图像。"
+  },
+  {
+    "page": "p0189.md",
+    "old": "\n\nA.\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_238_1538_467_1629.jpg\" alt=\"Image\" width=\"18%\" /></div>\n\n\nB.\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_539_1539_743_1626.jpg\" alt=\"Image\" width=\"16%\" /></div>\n\n\nC.\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_839_1541_1042_1627.jpg\" alt=\"Image\" width=\"16%\" /></div>\n",
+    "new": "\n\nA. 对位 CH₃-C₆H₄-C(=O)-CH₃\nB. C₆H₅-C(=O)-CH₂-CH₃\nC. C₆H₅-CH₂-C(=O)-CH₃\n",
+    "reason": "核对 PDF 第 189 页（书页 181）扫描图：第 9 题 A～C 结构式按原图转为缩写结构式，保留苯环取代位置。"
+  },
+  {
+    "page": "p0190.md",
+    "old": "D.\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_226_187_413_274.jpg\" alt=\"Image\" width=\"15%\" /></div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_540_188_748_287.jpg\" alt=\"Image\" width=\"16%\" /></div>\n\n\n",
+    "new": "D. 邻位 CH₃O-C₆H₄-O-CH₂-CH₃\nE. CH₂=CH-O-C(=O)-CH₃（端基 CH₂ 的两个氢分别标作 Hₐ、Hᵦ）\n\n",
+    "reason": "核对 PDF 第 190 页（书页 182）扫描图：接前页第 9 题 D、E 结构式；按原图恢复标号和邻位取代关系。"
+  },
+  {
+    "page": "p0203.md",
+    "old": "\n\nA.\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_220_736_399_777.jpg\" alt=\"Image\" width=\"14%\" /></div>\n\n\nB.\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_780_697_986_768.jpg\" alt=\"Image\" width=\"16%\" /></div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_518_736_684_811.jpg\" alt=\"Image\" width=\"13%\" /></div>\n\n\nD.\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_217_819_397_924.jpg\" alt=\"Image\" width=\"14%\" /></div>\n\n\nE.\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_520_820_678_914.jpg\" alt=\"Image\" width=\"12%\" /></div>\n\n\n",
+    "new": "\n\nA. CH₂=CH-CH₂-CH₂-CH₃\nB. CH₂=CH-CH₂-CH(CH₃)₂\nC. CH₃-CH₂-CH₂-C(=O)-CH₃\nD. 邻位 CH₃-C₆H₄-CH₂-C(CH₃)₃\nE. CH₂=CH-CH₂-C(CH₃)₃\n\n",
+    "reason": "核对 PDF 第 203 页（书页 195）扫描图：第 3 题图形选项错序且缺 C，按原图转写缩写结构式，恢复五个选项。"
+  },
+  {
+    "page": "p0203.md",
+    "old": "6. 3,3-二甲基戊烷： $  \\mathrm{CH_{3}} \\frac{1}{2} \\mathrm{CH_{2}} \\frac{2}{6} \\mathrm{C} \\frac{5}{6} \\frac{3}{6} \\mathrm{CH_{2}} \\frac{4}{4} \\mathrm{CH_{3}}  $ 受到电子流轰击后，最容易断裂的键位是（）。",
+    "new": "6. 3,3-二甲基戊烷 CH₃-CH₂-C(CH₃)₂-CH₂-CH₃，主链从左到右四条 C-C 键依次标为 1、2、3、4，中央碳与上下两个甲基相连的键分别标为 5、6。受到电子流轰击后，最容易断裂的键位是（）。",
+    "reason": "核对 PDF 第 203 页（书页 195）扫描图：第 6 题的键编号被错误识别为分数，按原图转写主链、支链及六条键的位置。"
+  },
+  {
+    "page": "p0204.md",
+    "old": "<div style=\"text-align: center;\">A.</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_224_182_376_272.jpg\" alt=\"Image\" width=\"12%\" /></div>\n\n\n<div style=\"text-align: center;\">D.</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_233_280_378_398.jpg\" alt=\"Image\" width=\"11%\" /></div>\n\n\n<div style=\"text-align: center;\">B.</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_505_180_698_271.jpg\" alt=\"Image\" width=\"15%\" /></div>\n\n\n<div style=\"text-align: center;\">C.</div>\n\n\n<div style=\"text-align: center;\">E.</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_786_178_949_270.jpg\" alt=\"Image\" width=\"13%\" /></div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_507_280_685_411.jpg\" alt=\"Image\" width=\"14%\" /></div>\n\n\n",
+    "new": "A. 邻位 CH₃-C₆H₄-O-CH₃\nB. 对位 CH₃-C₆H₄-O-CH₃\nC. C₆H₅-CH₂-O-CH₃\nD. 间位 CH₃-C₆H₄-CH₂-O-CH₃\nE. 间位 CH₃-C₆H₄-O-CH₃\n\n",
+    "reason": "核对 PDF 第 204 页（书页 196）扫描图：接前页第 9 题 A～E，按原图转写苯环取代位置和醚基连接顺序。"
+  }
+]
