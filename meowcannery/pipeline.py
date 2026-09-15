@@ -54,9 +54,7 @@ def extra_errors(q):
 
 
 def apply_fixes(book, questions):
-    from .catalog import ROOT
-    path = ROOT / "corrections" / book.id / "questions.json"
-    return apply_question_fixes(questions, path)
+    return apply_question_fixes(questions, book.corrections / "questions.json")
 
 
 def inspect_book(book, *, require_complete=True):

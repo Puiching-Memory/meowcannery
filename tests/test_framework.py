@@ -23,7 +23,7 @@ class RuleTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             for i, text in enumerate(texts, 1):
                 Path(directory, f"p{i:04d}.md").write_text(text, encoding="utf-8")
-            book = replace(get_book("fenxi"), id="test_fixture", ocr_dir=directory,
+            book = replace(get_book("fenxi"), id="test_fixture", config="test_fixture", ocr_dir=directory,
                            chapters={}, first_page=1, last_page=len(texts), preset=preset, rules=rules or {})
             return parse(book, book_rules(book))
 
@@ -270,7 +270,7 @@ class FrameworkTests(unittest.TestCase):
     def test_ambiguous_parser_result_is_excluded_even_if_fields_are_valid(self):
         q = dict(stem="1. 问题", type="简答题", options=[], answer="答案", chapter="第一章", section="essay", number=1)
         result = ParseResult([q], [dict(chapter="第一章", section="essay", number=1, source="p0001.md", reason="答案题号重复：1")])
-        book = replace(get_book("fenxi"), id="test_fixture")
+        book = replace(get_book("fenxi"), id="test_fixture", config="test_fixture")
         with patch("meowcannery.pipeline.load_plugin", return_value=lambda *_: result), patch("meowcannery.pipeline.book_rules", return_value={}):
             _, accepted, review = inspect_book(book, require_complete=False)
         self.assertEqual(accepted, [])

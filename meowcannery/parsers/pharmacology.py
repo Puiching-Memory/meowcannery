@@ -4,7 +4,7 @@ import json
 import re
 from pathlib import Path
 
-from ..catalog import ROOT, get_book
+from ..catalog import get_book
 
 
 SEC_KEYWORDS = (("单选题", "choice"), ("多选题", "choice"), ("选择题", "choice"),
@@ -83,8 +83,9 @@ def split_inline_questions(s):
 
 def source_documents(source_dir=None, corrections_path=None):
     """保留原始 OCR；只应用有扫描页依据、旧文本精确匹配的勘误。"""
-    source_dir = Path(source_dir) if source_dir is not None else get_book("yaoli").cache
-    corrections_path = Path(corrections_path) if corrections_path else ROOT / "corrections/yaoli/source.json"
+    book = get_book("yaoli")
+    source_dir = Path(source_dir) if source_dir is not None else book.cache
+    corrections_path = Path(corrections_path) if corrections_path else book.corrections / "source.json"
     fixes = json.loads(corrections_path.read_text(encoding="utf-8")) if corrections_path.exists() else []
     for f in sorted(source_dir.glob("p*.md")):
         text = f.read_text(encoding="utf-8")

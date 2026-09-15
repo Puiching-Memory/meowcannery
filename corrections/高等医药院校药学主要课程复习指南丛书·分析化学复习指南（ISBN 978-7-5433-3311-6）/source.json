@@ -184,5 +184,11 @@
     "old": "<div style=\"text-align: center;\">A.</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_224_182_376_272.jpg\" alt=\"Image\" width=\"12%\" /></div>\n\n\n<div style=\"text-align: center;\">D.</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_233_280_378_398.jpg\" alt=\"Image\" width=\"11%\" /></div>\n\n\n<div style=\"text-align: center;\">B.</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_505_180_698_271.jpg\" alt=\"Image\" width=\"15%\" /></div>\n\n\n<div style=\"text-align: center;\">C.</div>\n\n\n<div style=\"text-align: center;\">E.</div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_786_178_949_270.jpg\" alt=\"Image\" width=\"13%\" /></div>\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_507_280_685_411.jpg\" alt=\"Image\" width=\"14%\" /></div>\n\n\n",
     "new": "A. 邻位 CH₃-C₆H₄-O-CH₃\nB. 对位 CH₃-C₆H₄-O-CH₃\nC. C₆H₅-CH₂-O-CH₃\nD. 间位 CH₃-C₆H₄-CH₂-O-CH₃\nE. 间位 CH₃-C₆H₄-O-CH₃\n\n",
     "reason": "核对 PDF 第 204 页（书页 196）扫描图：接前页第 9 题 A～E，按原图转写苯环取代位置和醚基连接顺序。"
+  },
+  {
+    "page": "p0178.md",
+    "old": "<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_162_216_996_376.jpg\" alt=\"Image\" width=\"67%\" /></div>",
+    "new": "（该图见原书第 170 页）",
+    "reason": "PDF 第 178 页（书页 170）问答题第 4 题答案续页：答案为纯文字表述，仅以光路图示意。Exameow 导入不支持图片，改用页码注记代替图，未改写答案文字。"
   }
 ]

@@ -33,8 +33,7 @@ def parse(book, rules):
     a_pattern = re.compile(rules.get("answer_pattern", rules["question_pattern"]))
     chapters = sorted((int(p), title) for p, title in book.chapters.items())
     # 项目根目录从 catalog 获取，避免缓存深度影响路径。
-    from ..catalog import ROOT
-    corrections = ROOT / "corrections" / book.id / "source.json"
+    corrections = book.corrections / "source.json"
     fixes = json.loads(corrections.read_text(encoding="utf-8")) if corrections.exists() else []
     applied = set()
     from ..pipeline import required_pages

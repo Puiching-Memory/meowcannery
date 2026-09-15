@@ -20,6 +20,7 @@ class Book:
     preset: str = "chapter_answers"
     rules: dict = field(default_factory=dict)
     chapters: dict = field(default_factory=dict)
+    config: str = ""
 
     @property
     def pdf(self):
@@ -38,12 +39,17 @@ class Book:
         return ROOT / "output" / self.id
 
     @property
+    def corrections(self):
+        """勘误目录跟随 books/<配置名>.json 的文件名，未加载自配置文件时退回 id。"""
+        return ROOT / "corrections" / (self.config or self.id)
+
+    @property
     def xlsx(self):
         return self.output / f"{self.title}_Exameow.xlsx"
 
 
 def books():
-    return [Book(**json.loads(p.read_text(encoding="utf-8")))
+    return [Book(**json.loads(p.read_text(encoding="utf-8")), config=p.stem)
             for p in sorted((ROOT / "books").glob("*.json"))]
 
 
