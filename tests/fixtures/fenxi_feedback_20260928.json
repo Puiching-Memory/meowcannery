@@ -1,0 +1,699 @@
+{
+  "feedback": [
+    {
+      "screenshot": "03EF37DDC20238569E115D00FBF55021.png",
+      "match": {
+        "chapter": "第五章 配位滴定法",
+        "section": "shared",
+        "number": 21
+      },
+      "source": "p0073.md",
+      "previous_answer": "C"
+    },
+    {
+      "screenshot": "05E4F798A2D62D74848735686891C036.png",
+      "match": {
+        "chapter": "第十八章 高效液相色谱法",
+        "section": "shared",
+        "number": 4
+      },
+      "source": "p0243.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "0CD369B7A7FAFCB1AD989C393CA69C18.png",
+      "match": {
+        "chapter": "第五章 配位滴定法",
+        "section": "shared",
+        "number": 22
+      },
+      "source": "p0073.md",
+      "previous_answer": "B"
+    },
+    {
+      "screenshot": "1361B180C93598FEDD81F69549EF5550.png",
+      "match": {
+        "chapter": "第五章 配位滴定法",
+        "section": "shared",
+        "number": 16
+      },
+      "source": "p0073.md",
+      "previous_answer": "B"
+    },
+    {
+      "screenshot": "17D93C6C92682EBB7584FBAD1BCAFFAC.png",
+      "match": {
+        "chapter": "第十七章 气相色谱法",
+        "section": "shared",
+        "number": 8
+      },
+      "source": "p0232.md",
+      "previous_answer": "D"
+    },
+    {
+      "screenshot": "18C6FCA87DF794472720FA14AA88D32F.png",
+      "match": {
+        "chapter": "第十三章 原子吸收分光光度法",
+        "section": "shared",
+        "number": 12
+      },
+      "source": "p0176.md",
+      "previous_answer": "E"
+    },
+    {
+      "screenshot": "1C0EF76D0C47FC5371D3D5E6F249D8E1.png",
+      "match": {
+        "chapter": "第十七章 气相色谱法",
+        "section": "shared",
+        "number": 4
+      },
+      "source": "p0232.md",
+      "previous_answer": "B"
+    },
+    {
+      "screenshot": "2D2FEF4BA5B03CF0B16B4C21C61F67EB.png",
+      "match": {
+        "chapter": "第十八章 高效液相色谱法",
+        "section": "shared",
+        "number": 1
+      },
+      "source": "p0243.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "38707121D7653FF548895F1D8323794C.png",
+      "match": {
+        "chapter": "第五章 配位滴定法",
+        "section": "shared",
+        "number": 15
+      },
+      "source": "p0073.md",
+      "previous_answer": "F"
+    },
+    {
+      "screenshot": "480095B8D7C1F417D32FF5B97267B19F.png",
+      "match": {
+        "chapter": "第六章 氧化还原滴定法",
+        "section": "shared",
+        "number": 11
+      },
+      "source": "p0089.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "511D7B05D64026A630AFCBF133212E64.png",
+      "match": {
+        "chapter": "第十六章 色谱分析法概论",
+        "section": "shared",
+        "number": 10
+      },
+      "source": "p0217.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "54CE35996035C97FEFA29C52EEA0D861.png",
+      "match": {
+        "chapter": "第九章 光谱分析法概论",
+        "section": "multi",
+        "number": 3
+      },
+      "source": "p0127.md",
+      "previous_answer": "BEACDF"
+    },
+    {
+      "screenshot": "58C81644D5E380AB201FE73DB916042C.png",
+      "match": {
+        "chapter": "第十八章 高效液相色谱法",
+        "section": "shared",
+        "number": 8
+      },
+      "source": "p0244.md",
+      "previous_answer": "C"
+    },
+    {
+      "screenshot": "5E0FDECC345369B9EE01C898186BC8D2.png",
+      "match": {
+        "chapter": "第六章 氧化还原滴定法",
+        "section": "shared",
+        "number": 14
+      },
+      "source": "p0089.md",
+      "previous_answer": "E"
+    },
+    {
+      "screenshot": "673131288B1133637D1BA060C18D16FC.png",
+      "match": {
+        "chapter": "第三章 滴定分析法概论",
+        "section": "shared",
+        "number": 4
+      },
+      "source": "p0038.md",
+      "previous_answer": "C"
+    },
+    {
+      "screenshot": "67F8290DAC6DB61D27FD435B8AEC4837.png",
+      "match": {
+        "chapter": "第三章 滴定分析法概论",
+        "section": "shared",
+        "number": 5
+      },
+      "source": "p0038.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "6DFB80E5595F326B78722E85C8F41D81.png",
+      "match": {
+        "chapter": "第十七章 气相色谱法",
+        "section": "shared",
+        "number": 5
+      },
+      "source": "p0232.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "6FFFEB508696102FC2921865F326B988.png",
+      "match": {
+        "chapter": "第三章 滴定分析法概论",
+        "section": "shared",
+        "number": 6
+      },
+      "source": "p0038.md",
+      "previous_answer": "B"
+    },
+    {
+      "screenshot": "71D8B4E5CC3DC9198046489BF9F053EA.png",
+      "match": {
+        "chapter": "第十三章 原子吸收分光光度法",
+        "section": "shared",
+        "number": 14
+      },
+      "source": "p0176.md",
+      "previous_answer": "D"
+    },
+    {
+      "screenshot": "75D6DFC3BFFA09073CE088FFAF4016CE.png",
+      "match": {
+        "chapter": "第十五章 质谱法",
+        "section": "shared",
+        "number": 8
+      },
+      "source": "p0204.md",
+      "previous_answer": "C"
+    },
+    {
+      "screenshot": "7627FBCCA0DF0D523220370713082AB0.png",
+      "match": {
+        "chapter": "第十八章 高效液相色谱法",
+        "section": "shared",
+        "number": 7
+      },
+      "source": "p0243.md",
+      "previous_answer": "D"
+    },
+    {
+      "screenshot": "7CD45559A1BDFE8EFB823CBA20519252.png",
+      "match": {
+        "chapter": "第五章 配位滴定法",
+        "section": "shared",
+        "number": 19
+      },
+      "source": "p0073.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "84CC3C3124AB14E286546B927CC887BC.png",
+      "match": {
+        "chapter": "第二十一章 色谱联用分析法",
+        "section": "shared",
+        "number": 2
+      },
+      "source": "p0266.md",
+      "previous_answer": "C"
+    },
+    {
+      "screenshot": "91C845737341D29F28ED1BBCE52C629B.png",
+      "match": {
+        "chapter": "第十七章 气相色谱法",
+        "section": "shared",
+        "number": 1
+      },
+      "source": "p0232.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "A04D05BC0CC1EAF9B8570CEA7E64A36B.png",
+      "match": {
+        "chapter": "第十二章 红外吸收光谱法",
+        "section": "shared",
+        "number": 5
+      },
+      "source": "p0165.md",
+      "previous_answer": "E"
+    },
+    {
+      "screenshot": "A0E1F6AF433A4C260990842A17EFF851.png",
+      "match": {
+        "chapter": "第十七章 气相色谱法",
+        "section": "shared",
+        "number": 6
+      },
+      "source": "p0232.md",
+      "previous_answer": "C"
+    },
+    {
+      "screenshot": "AB856F8E7BC19DAFAC5BE6ACC9D7FCBC.png",
+      "match": {
+        "chapter": "第十八章 高效液相色谱法",
+        "section": "shared",
+        "number": 9
+      },
+      "source": "p0244.md",
+      "previous_answer": "B"
+    },
+    {
+      "screenshot": "AC3AE343F650898E624251E1108CBEF9.png",
+      "match": {
+        "chapter": "第三章 滴定分析法概论",
+        "section": "shared",
+        "number": 7
+      },
+      "source": "p0038.md",
+      "previous_answer": "E"
+    },
+    {
+      "screenshot": "B71A1AF85178EE5EAE16559D9335C6AD.png",
+      "match": {
+        "chapter": "第二十一章 色谱联用分析法",
+        "section": "shared",
+        "number": 7
+      },
+      "source": "p0267.md",
+      "previous_answer": "C"
+    },
+    {
+      "screenshot": "BA092B7BABF627BB5441550B188353C8.png",
+      "match": {
+        "chapter": "第二十一章 色谱联用分析法",
+        "section": "shared",
+        "number": 1
+      },
+      "source": "p0266.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "C1F154726F8185A9DDA1BB6385E734EA.png",
+      "match": {
+        "chapter": "第十六章 色谱分析法概论",
+        "section": "shared",
+        "number": 12
+      },
+      "source": "p0217.md",
+      "previous_answer": "F"
+    },
+    {
+      "screenshot": "C8124392C26A190BACB8C92E6DF154F9.png",
+      "match": {
+        "chapter": "第七章 沉淀滴定法和重量分析法",
+        "section": "shared",
+        "number": 10
+      },
+      "source": "p0105.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "CA7D94C61C451FDD0A166D719E5A94A6.png",
+      "match": {
+        "chapter": "第二十一章 色谱联用分析法",
+        "section": "shared",
+        "number": 9
+      },
+      "source": "p0267.md",
+      "previous_answer": "D"
+    },
+    {
+      "screenshot": "CEA89FFFBC084ABDE04C6F071F7E221D.png",
+      "match": {
+        "chapter": "第十七章 气相色谱法",
+        "section": "shared",
+        "number": 3
+      },
+      "source": "p0232.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "CF9E0ABFC7AD2D67DE0003B99B9FE46C.png",
+      "match": {
+        "chapter": "第二十一章 色谱联用分析法",
+        "section": "shared",
+        "number": 4
+      },
+      "source": "p0266.md",
+      "previous_answer": "D"
+    },
+    {
+      "screenshot": "D1EAEEEF77064455D5BE2060B1E6DF14.png",
+      "match": {
+        "chapter": "第十三章 原子吸收分光光度法",
+        "section": "shared",
+        "number": 6
+      },
+      "source": "p0176.md",
+      "previous_answer": "E"
+    },
+    {
+      "screenshot": "D26C23C6EF866F5D0A4145C67A44FE40.png",
+      "match": {
+        "chapter": "第六章 氧化还原滴定法",
+        "section": "shared",
+        "number": 1
+      },
+      "source": "p0088.md",
+      "previous_answer": "B"
+    },
+    {
+      "screenshot": "DAE3855CEF89BBADEAFD805FB9153BE2.png",
+      "match": {
+        "chapter": "第十八章 高效液相色谱法",
+        "section": "shared",
+        "number": 10
+      },
+      "source": "p0244.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "E2856E302553ABDB608C0A2CE22254CB.png",
+      "match": {
+        "chapter": "第二十一章 色谱联用分析法",
+        "section": "shared",
+        "number": 5
+      },
+      "source": "p0266.md",
+      "previous_answer": "E"
+    },
+    {
+      "screenshot": "E9CA474176817BC801A647790B395739.png",
+      "match": {
+        "chapter": "第十三章 原子吸收分光光度法",
+        "section": "shared",
+        "number": 13
+      },
+      "source": "p0176.md",
+      "previous_answer": "A"
+    },
+    {
+      "screenshot": "F24E13805DE7BE0EED7A465EECBB13E3.png",
+      "match": {
+        "chapter": "第三章 滴定分析法概论",
+        "section": "shared",
+        "number": 8
+      },
+      "source": "p0038.md",
+      "previous_answer": "D"
+    },
+    {
+      "screenshot": "F7E59A37282B66A817536C0B4864D1EE.png",
+      "match": {
+        "chapter": "第十八章 高效液相色谱法",
+        "section": "shared",
+        "number": 5
+      },
+      "source": "p0243.md",
+      "previous_answer": "B"
+    }
+  ],
+  "groups": [
+    {
+      "chapter": "第三章 滴定分析法概论",
+      "first": 4,
+      "last": 8,
+      "intro": "标定下列物质应选用基准物质是",
+      "options": [
+        "无水碳酸钠",
+        "氧化锌",
+        "邻苯二甲酸氢钾",
+        "重铬酸钾",
+        "氯化钠"
+      ]
+    },
+    {
+      "chapter": "第五章 配位滴定法",
+      "first": 4,
+      "last": 7,
+      "intro": "匹配下列各值",
+      "options": [
+        "≥5",
+        "≥6",
+        "≥4",
+        "≥2",
+        "≥8"
+      ]
+    },
+    {
+      "chapter": "第五章 配位滴定法",
+      "first": 11,
+      "last": 14,
+      "intro": "除温度外，符合下列情况的是",
+      "options": [
+        "K'_(MY)",
+        "lgα_(Y)",
+        "K_(MY)",
+        "lgα_(M)"
+      ]
+    },
+    {
+      "chapter": "第五章 配位滴定法",
+      "first": 15,
+      "last": 19,
+      "intro": "为了消除干扰，加入掩蔽剂的是",
+      "options": [
+        "NH₄F",
+        "KCN",
+        "三乙醇胺",
+        "酒石酸",
+        "铜试剂",
+        "抗坏血酸"
+      ]
+    },
+    {
+      "chapter": "第五章 配位滴定法",
+      "first": 20,
+      "last": 23,
+      "intro": "指出下列叙述中的结果",
+      "options": [
+        "不受影响",
+        "升高",
+        "降低",
+        "不确定"
+      ]
+    },
+    {
+      "chapter": "第六章 氧化还原滴定法",
+      "first": 1,
+      "last": 4,
+      "intro": "标定下列标准溶液常用的基准物是",
+      "options": [
+        "对氨基苯磺酸",
+        "As₂O₃",
+        "K₂Cr₂O₇",
+        "Na₂C₂O₄",
+        "NaCl"
+      ]
+    },
+    {
+      "chapter": "第六章 氧化还原滴定法",
+      "first": 11,
+      "last": 15,
+      "intro": "下列操作的目的是：",
+      "options": [
+        "增加反应物浓度，加快反应速度",
+        "增加反应物浓度，加快反应速度，同时降低 I₂ 的挥发程度",
+        "使反应完全，减弱 I⁻ 被空气中的 O₂ 氧化程度",
+        "降低酸度，防止 Na₂S₂O₃ 分解，同时减弱 I⁻ 被空气中的 O₂ 氧化程度",
+        "防止 I₂ 的挥发"
+      ]
+    },
+    {
+      "chapter": "第七章 沉淀滴定法和重量分析法",
+      "first": 6,
+      "last": 10,
+      "intro": "下列因素对沉淀溶解度的影响是：",
+      "options": [
+        "增大",
+        "减小",
+        "不确定"
+      ]
+    },
+    {
+      "chapter": "第十二章 红外吸收光谱法",
+      "first": 1,
+      "last": 5,
+      "intro": "在上述特征吸收区中",
+      "options": [
+        "3750～3200cm⁻¹",
+        "2250～2000cm⁻¹",
+        "1850～1650cm⁻¹",
+        "3000～2800cm⁻¹",
+        "1620～1450cm⁻¹"
+      ]
+    },
+    {
+      "chapter": "第十三章 原子吸收分光光度法",
+      "first": 6,
+      "last": 10,
+      "intro": "下述各原因引起的变宽是",
+      "options": [
+        "多普勒变宽",
+        "劳伦茨变宽",
+        "赫鲁兹马克变宽",
+        "自然变宽",
+        "磁场变宽"
+      ]
+    },
+    {
+      "chapter": "第十三章 原子吸收分光光度法",
+      "first": 11,
+      "last": 15,
+      "intro": "由于下列原因引起的干扰是",
+      "options": [
+        "化学干扰",
+        "电离干扰",
+        "背景干扰",
+        "光谱干扰",
+        "物理干扰"
+      ]
+    },
+    {
+      "chapter": "第十五章 质谱法",
+      "first": 1,
+      "last": 5,
+      "intro": "在质谱中，下列特征离子一般对应的化合物是",
+      "options": [
+        "直链烷烃",
+        "烯烃",
+        "羧酸",
+        "醇",
+        "烷基取代苯"
+      ]
+    },
+    {
+      "chapter": "第十五章 质谱法",
+      "first": 6,
+      "last": 7,
+      "intro": "化合物结构推断",
+      "options": [
+        "CH₃CH₂CH₂CH₂COOCH₃",
+        "CH₃CH₂CH₂COOCH₂CH₃",
+        "CH₃CH₂CH₂COOCH₃",
+        "(CH₃)₂CHCOOCH₃"
+      ]
+    },
+    {
+      "chapter": "第十五章 质谱法",
+      "first": 8,
+      "last": 10,
+      "intro": "同位素的 M、 (M+2) 和 (M+4) 峰的强度比",
+      "options": [
+        "3:4:1",
+        "1:2:1",
+        "9:6:1"
+      ]
+    },
+    {
+      "chapter": "第十六章 色谱分析法概论",
+      "first": 7,
+      "last": 12,
+      "intro": "指出分离下列物质，最适宜选择的色谱法是",
+      "options": [
+        "离子交换色谱",
+        "正相色谱",
+        "反相色谱",
+        "气液色谱",
+        "气固色谱",
+        "液固色谱"
+      ]
+    },
+    {
+      "chapter": "第十七章 气相色谱法",
+      "first": 1,
+      "last": 4,
+      "intro": "分离下列物质最适宜的色谱法是",
+      "options": [
+        "吸附色谱法",
+        "分配色谱法"
+      ]
+    },
+    {
+      "chapter": "第十七章 气相色谱法",
+      "first": 5,
+      "last": 9,
+      "intro": "分离以下物质合适的气相色谱固定相是",
+      "options": [
+        "分子筛",
+        "GDX",
+        "DNP",
+        "PEG-20M",
+        "SE-30"
+      ]
+    },
+    {
+      "chapter": "第十八章 高效液相色谱法",
+      "first": 1,
+      "last": 3,
+      "intro": "高效液相色谱法采用 ODS 固定相、乙腈-水流动相",
+      "options": [
+        "增大",
+        "减小",
+        "不变",
+        "无法判断"
+      ]
+    },
+    {
+      "chapter": "第十八章 高效液相色谱法",
+      "first": 4,
+      "last": 7,
+      "intro": "选择合适的高效液相色谱法分离以下物质",
+      "options": [
+        "正相色谱",
+        "反相色谱",
+        "离子交换色谱",
+        "分子排阻色谱"
+      ]
+    },
+    {
+      "chapter": "第十八章 高效液相色谱法",
+      "first": 8,
+      "last": 10,
+      "intro": "用高效液相色谱法测定以下物质选择合适的检测器",
+      "options": [
+        "UVD",
+        "FD",
+        "ELSD"
+      ]
+    },
+    {
+      "chapter": "第二十一章 色谱联用分析法",
+      "first": 1,
+      "last": 5,
+      "intro": "在下列色谱联用中，接口关键要解决的问题",
+      "options": [
+        "气压匹配问题",
+        "电压匹配问题",
+        "组分离子化问题",
+        "色谱出峰速度和检测器扫描速度匹配问题",
+        "样品信息采集问题"
+      ]
+    },
+    {
+      "chapter": "第二十一章 色谱联用分析法",
+      "first": 6,
+      "last": 9,
+      "intro": "采用液-质联用(HPLC-MS)分析下列化合物，请选择合适的离子源",
+      "options": [
+        "电子轰击离子源(EI)",
+        "电喷雾电离源(ESI)",
+        "大气压化学电离源(APCI)",
+        "大气压光电离源(APPI)"
+      ]
+    }
+  ]
+}

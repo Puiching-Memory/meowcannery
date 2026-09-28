@@ -1,5 +1,7 @@
 """本地分析化学 OCR 的集成回归；无书籍资料时自动跳过。"""
+import json
 import unittest
+from pathlib import Path
 
 from meowcannery.catalog import get_book
 from meowcannery.pipeline import inspect_book, required_pages
@@ -43,3 +45,31 @@ class AnalyticalRegressionTests(unittest.TestCase):
         for entry in self.review:
             q = entry["question"]
             self.assertNotIn((q["chapter"], q["section"], q["number"]), ids)
+
+    def test_september_feedback_and_all_affected_shared_groups(self):
+        fixture = json.loads((Path(__file__).parent / "fixtures" / "fenxi_feedback_20260928.json")
+                             .read_text(encoding="utf-8"))
+        questions = {(q["chapter"], q["section"], q["number"]): q for q in self.accepted}
+        self.assertEqual(len(fixture["feedback"]), 42)
+        for item in fixture["feedback"]:
+            with self.subTest(screenshot=item["screenshot"]):
+                match = item["match"]
+                q = questions[(match["chapter"], match["section"], match["number"])]
+                self.assertEqual(q["source"], item["source"])
+                if match["section"] == "shared":
+                    self.assertEqual(q["answer"], item["previous_answer"])
+                    self.assertTrue(any(g["chapter"] == q["chapter"] and g["first"] <= q["number"] <= g["last"]
+                                        for g in fixture["groups"]))
+                else:
+                    self.assertEqual(q["type"], "简答题")
+                    self.assertEqual(q["options"], [])
+                    self.assertIn("第一空：BE", q["answer"])
+                    self.assertIn("第二空：ACDF", q["answer"])
+                    self.assertIn("F. 偏振", q["stem"])
+                    self.assertFalse(q.get("review_reasons"))
+        for group in fixture["groups"]:
+            for number in range(group["first"], group["last"] + 1):
+                with self.subTest(chapter=group["chapter"], number=number):
+                    q = questions[(group["chapter"], "shared", number)]
+                    self.assertEqual(q["options"], group["options"])
+                    self.assertIn(group["intro"], q["stem"])

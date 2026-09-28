@@ -70,6 +70,44 @@ A. 甲 B. 乙
         self.assertEqual(result.issues, [])
         self.assertEqual([q["answer"] for q in result.questions], ["B", "解：结果"])
 
+    def test_configured_shared_intro_preserves_continuation_and_resets(self):
+        result = self.parse("""# 第一章 测试
+## 一、配伍选择题
+[1~2]
+A. 无水碳酸钠 B. 邻苯二甲酸
+氢钾
+标定下列物质应选用基准物质是
+1. NaOH（）。
+""", """2. HCl（）。
+[3~3]
+A. 甲 B. 乙
+3. 下一组（）。
+## 参考答案
+## 一、配伍选择题
+[1~2] BA [3~3] A
+""", preset="analytical_guide")
+        self.assertEqual(result.issues, [])
+        for q in result.questions[:2]:
+            self.assertEqual(q["options"], ["无水碳酸钠", "邻苯二甲酸 氢钾"])
+            self.assertIn("标定下列物质应选用基准物质是", q["stem"])
+        self.assertNotIn("标定下列", result.questions[2]["stem"])
+        self.assertEqual(result.questions[2]["options"], ["甲", "乙"])
+
+    def test_grouped_answers_for_multiple_blanks_require_review(self):
+        result = self.parse("""# 第一章 测试
+## 一、多选题
+1. 第一类（），第二类（）。
+A. 甲 B. 乙 C. 丙 D. 丁
+2. 常规多选（）。
+A. 甲 B. 乙 C. 丙 D. 丁
+## 参考答案
+## 一、多选题
+1. AB, CD 2. A, C
+""")
+        self.assertIn("分组答案", result.questions[0]["review_reasons"][0])
+        self.assertNotIn("review_reasons", result.questions[1])
+        self.assertEqual(result.questions[1]["answer"], "AC")
+
     def test_inline_answers_are_a_working_preset(self):
         result = self.parse("""# 第一章 示例
 ## 一、单选题

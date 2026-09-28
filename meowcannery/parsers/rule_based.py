@@ -144,6 +144,12 @@ def parse(book, rules):
                         continue
                     pairs = list(CHOICE_ANSWER.finditer(s))
                     for match in pairs:
+                        q = bank.get(key_for(int(match[1])))
+                        if (section == "multi" and q
+                                and len(re.findall(r"[（(]\s*[）)]|_{2,}", plain_text(q["stem"]))) > 1
+                                and re.search(r"[A-H]\s*[,，、]\s*[A-H]", match[2])):
+                            q.setdefault("review_reasons", []).append(
+                                "多空选择题含分组答案，须保留各空对应关系，不能合并为一次多选")
                         answer(int(match[1]), re.sub(r"[\s,，、]", "", match[2]), path.name)
                     if not pairs and re.search(r"[A-H0-9]", s):
                         issue(f"未识别的选择题答案：{s[:160]}", path.name)
@@ -232,7 +238,10 @@ def parse(book, rules):
                 continue
             if section == "shared" and collecting:
                 # 共用选项之后的指令属于整组题干，不追加到最后一个选项。
-                if re.match(r"^(?:试|请|判断|下列|以下|上述|根据|对于|各|为下列|要测定)", s) or "下列操作" in s:
+                if (re.match(r"^(?:试|请|判断|下列|以下|上述|根据|对于|各|为下列|要测定)", s)
+                        or "下列操作" in s
+                        or any(re.search(pattern, plain_text(s))
+                               for pattern in rules.get("shared_intro_patterns", []))):
                     group_intro = (group_intro + "\n" + s).strip()
                 elif pool and not group_intro:
                     pool[-1] += " " + s
