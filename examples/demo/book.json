@@ -1,0 +1,12 @@
+{
+  "id": "demo",
+  "title": "原创入门示例",
+  "subject": "基础常识",
+  "pdf_glob": "data/books/demo.pdf",
+  "ocr_dir": "data/ocr/demo",
+  "plugin": "rule_based",
+  "preset": "inline_answers",
+  "page_count": 1,
+  "first_page": 1,
+  "last_page": 1
+}

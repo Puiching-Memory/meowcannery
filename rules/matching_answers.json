@@ -1,0 +1,10 @@
+{
+  "extends": "chapter_answers",
+  "name": "配伍与综合题",
+  "description": "支持共用选项、区间答案和计算题；导语模式可在资料配置中覆盖。",
+  "shared_intro_patterns": ["^请为下列", "^根据下列", "^标定下列", "^匹配下列"],
+  "sections": {
+    "最佳选择题": "single", "最佳选择": "single", "配伍选择": "shared",
+    "多项选择": "multi", "问答题和计算题": "essay_calculate", "A型题": "single"
+  }
+}
