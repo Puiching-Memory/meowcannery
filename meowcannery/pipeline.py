@@ -36,7 +36,7 @@ def check_sources(book):
     missing = [page for page in required_pages(book) if not (book.cache / f"p{page:04d}.md").is_file()]
     if missing:
         raise ValueError(f"{book.title} 的 OCR 尚缺 {len(missing)} 页（如 {', '.join(map(str, missing[:8]))}）。"
-                         f"请运行：python -m meowcannery ocr {book.id}")
+                         f"请运行：uv run --locked meowcannery ocr {book.id}")
 
 
 def extra_errors(q):

@@ -6,7 +6,7 @@
 在项目根目录运行：
 
 ```powershell
-python -m meowcannery demo
+uv run --locked meowcannery demo
 ```
 
 程序将配置和输入复制到本地工作目录，生成 `output/demo/原创入门示例_Exameow.xlsx`。

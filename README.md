@@ -10,21 +10,26 @@
 
 ### 1. 安装基础环境
 
-需要 Python 3.11 或更新版本；下面以 Windows、Python 3.12 为例。桌面面板需要 Python 自带的 Tkinter。
-
-下载本项目源码，在项目目录打开 PowerShell：
+使用 [uv](https://docs.astral.sh/uv/getting-started/installation/) 管理 Python 和依赖。Windows 先在 PowerShell 安装 uv，完成后重新打开终端：
 
 ```powershell
-py -3.12 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -e .
+winget install --id astral-sh.uv -e
 ```
+
+下载或克隆本项目源码，在项目目录打开 PowerShell：
+
+```powershell
+uv sync --locked --inexact
+```
+
+uv 会按 `.python-version` 选择 Python 3.12，缺少时自动下载，并在项目内创建 `.venv`、按 `uv.lock` 安装依赖。后续使用 `uv run --locked` 运行，无需手动激活环境。程序支持 Python 3.11 及以上；桌面面板还需要 Tkinter，可运行 `uv run --locked python -m tkinter` 检查。
 
 基础安装用于解析已有 OCR 文本、导出和组卷。识别自己的扫描 PDF 还需配置本地 OCR 环境，见下文。
 
 ### 2. 先体验原创示例
 
 ```powershell
-.\.venv\Scripts\python.exe -m meowcannery demo
+uv run --locked meowcannery demo
 ```
 
 示例由六道原创常识题组成，覆盖单选、多选、判断、填空和简答，不需要 PDF、GPU 或 OCR 模型。运行后可在 `output/demo/` 找到 `原创入门示例_Exameow.xlsx`。示例输入为手写文本，用于体验流程，不代表扫描识别效果。
@@ -44,14 +49,14 @@ py -3.12 -m venv .venv
 
 ## 本地 OCR
 
-扫描识别使用 PaddleOCR-VL。请先按 [PaddleOCR 官方安装说明](https://www.paddleocr.ai/latest/en/version3.x/installation.html) 安装适合系统和设备的 PaddlePaddle 及支持 VL 的 PaddleOCR，然后检查：
+扫描识别使用 PaddleOCR-VL。先完成基础环境同步，再按 [PaddleOCR 官方安装说明](https://www.paddleocr.ai/latest/en/version3.x/installation.html)，用 `uv pip install --python .venv\Scripts\python.exe ...` 将适合系统和设备的 PaddlePaddle 及支持 VL 的 PaddleOCR 安装到本项目环境；将 `...` 换成官方给出的包名、版本和索引参数。然后检查：
 
 ```powershell
-.\.venv\Scripts\python.exe -c "from paddleocr import PaddleOCRVL"
-.\.venv\Scripts\python.exe -m meowcannery doctor
+uv run --locked python -c "from paddleocr import PaddleOCRVL"
+uv run --locked meowcannery doctor
 ```
 
-当前代码调用 `PaddleOCRVL(pipeline_version="v1.6")`；使用的 PaddleOCR 版本须提供该接口。首次加载可能下载模型，耗时和资源需求取决于设备。基础安装不自动安装识别模型或 GPU 驱动。Windows 桌面面板是主要操作入口，命令行也可用于独立部署；其他系统的 OCR 环境请以官方支持范围为准。
+当前代码调用 `PaddleOCRVL(pipeline_version="v1.6")`；使用的 PaddleOCR 版本须提供该接口。首次加载可能下载模型，耗时和资源需求取决于设备。基础锁文件不包含设备相关的 OCR 包，基础安装不自动安装识别模型或 GPU 驱动。更新基础环境时使用 `uv sync --locked --inexact` 保留额外安装的 OCR 包；`uv run --locked` 默认也会保留它们。Windows 桌面面板是主要操作入口，命令行也可用于独立部署；其他系统的 OCR 环境请以官方支持范围为准。
 
 ## 选择规则
 
@@ -70,24 +75,24 @@ py -3.12 -m venv .venv
 
 ```powershell
 # 查看资料、规则和环境
-.\.venv\Scripts\python.exe -m meowcannery list
-.\.venv\Scripts\python.exe -m meowcannery presets
-.\.venv\Scripts\python.exe -m meowcannery doctor
+uv run --locked meowcannery list
+uv run --locked meowcannery presets
+uv run --locked meowcannery doctor
 
 # 从命令行添加自己的资料
-.\.venv\Scripts\python.exe -m meowcannery init-book mybook --title "我的学习资料" --pdf "D:\资料\练习.pdf" --preset chapter_answers
+uv run --locked meowcannery init-book mybook --title "我的学习资料" --pdf "D:\资料\练习.pdf" --preset chapter_answers
 
 # 按资料配置的页码范围识别，中断后可继续
-.\.venv\Scripts\python.exe -m meowcannery ocr mybook
+uv run --locked meowcannery ocr mybook
 
 # 生成题库；all 表示处理全部本地资料
-.\.venv\Scripts\python.exe -m meowcannery build mybook
+uv run --locked meowcannery build mybook
 
 # 仅导出检查通过的题目，其余内容保留在核对报告中
-.\.venv\Scripts\python.exe -m meowcannery build mybook --allow-review
+uv run --locked meowcannery build mybook --allow-review
 
 # 从生成的题库抽题组卷
-.\.venv\Scripts\python.exe -m meowcannery quiz mybook --single 20 --multi 5 --seed 42
+uv run --locked meowcannery quiz mybook --single 20 --multi 5 --seed 42
 ```
 
 OCR 页码从 PDF 的第 1 个物理页开始计数，可能与印刷页码不同。范围应覆盖完整习题和对应答案；同一资料再次运行会继续识别缺失页。
@@ -128,8 +133,11 @@ examples/demo/    原创入门示例
 docs/             配置和扩展说明
 ```
 
+`pyproject.toml` 声明基础依赖，`uv.lock` 锁定解析版本，`.python-version` 指定默认 Python；这三个文件均纳入版本控制。
+
 以下内容仅用于本地，默认不纳入 Git：
 
+- `.venv/`：uv 创建的本地环境。
 - `books/*.json`：个人资料配置，可能含本机 PDF 路径。
 - `corrections/<资料ID>/`：个人原文修正与勘误依据。
 - `data/`：PDF、OCR 文本、扫描页和识别模型相关缓存。
